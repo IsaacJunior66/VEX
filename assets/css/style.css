@@ -303,6 +303,10 @@ body.nav-active { overflow: hidden; }
 .header .logo-light,
 .header.active .logo-dark { display: block; }
 
+.logo-dark {
+  width: 20rem;
+}
+
 #logo-vex {
   width: 40rem;
 }
@@ -403,7 +407,10 @@ body.nav-active { overflow: hidden; }
   gap: 70px;
 }
 
-.hero-title { color: var(--white); }
+.hero-title { color: var(--white); 
+  
+}
+
 
 .hero-text {
   font-size: var(--fs-5);
