@@ -181,7 +181,10 @@ body.nav-active { overflow: hidden; }
 
 .social-link:is(:hover, :focus-visible) { transform: translateY(-3px); }
 
-.section { padding-block: var(--section-padding); }
+.section { padding-block: var(--section-padding);
+  /* height: 100vh; */
+
+}
 
 .has-bg-image {
   background-repeat: no-repeat;
