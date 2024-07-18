@@ -44,13 +44,17 @@
 
 /*=============== BUTTONS ===============*/
 
+.contatos-container{
+    margin-top: 80px;
+}
+
 .breadcrumb__subtitle{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-    color: var(--main-color);
-    font-size: 1.9rem;
+    color: #eee;
+    font-size: 2.5rem;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 50px;
 }
@@ -71,21 +75,21 @@
 }
 
 .contact__icon {
-    font-size: 2rem;
-    color: #f1683a;
-    margin-right: var(--mb-0-75);
+    font-size: 3rem;
+    color: #067595;
+    margin-right: 15px;
 }
 
 .contact__title {
     font-size: 1.7rem;
     font-weight: var(--font-medium);
     font-family: 'Poppins', sans-serif;
-    color: var(--main-color);
+    color: #eee;
 }
 
 .contact__subtitle {
     font-family: 'Poppins', sans-serif;
-    color: var(--main-color);
+    color: #eee;
 }
 
 .contact__form {
@@ -122,7 +126,7 @@
 .button {
     display: inline-block;
     text-align: center;
-    background: #f1683a;
+    background: #067595;
     color: #fff;
     padding: 1rem 1.75rem;
     border-radius: .5rem;
@@ -133,13 +137,16 @@
 }
 
 .button:hover {
-    background: #ec6f45;
+    background: #046a86;
 }
 
 
 #maps {
-    width:100%; 
-    margin-left: -280px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 100px;
 }
 iframe {
     margin-top: 70px;
@@ -162,7 +169,7 @@ iframe {
 
 @media (max-width: 768px) {
     .breadcrumb__subtitle {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 
     .contact__title {
